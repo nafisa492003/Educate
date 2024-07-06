@@ -11,11 +11,14 @@ export default {
       },
       colors: {
         'regal-blue': '#2A254D',
+        'blue': '#4F5DE4',
         'custom_orange': '#F57005',
+        'hash':'#697585'
       },
       fontFamily: {
         'Urbanist': ['Urbanist', 'sans-serif'],
         'WaterBrush': ['Water Brush', 'cursive'],
+        'allison': ['Allison', 'cursive'],
       },
     },
   },
