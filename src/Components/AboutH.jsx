@@ -18,7 +18,7 @@ const AboutH = () => {
           subtitle={`About Us`}
           title={`Creating a Lifelong Learning Best Community`}
           mainClass={` lg:justify-start lg:items-start`}
-          h1Width={`lg:w-[592px]`}
+          h1Width={`lg:w-[592px] w-full mx-auto text-center lg:mx-0 lg:text-start`}
         />
         <p className="font-Urbanist font-semibold text-[16px] text-hash w-full lg:w-[608px] mx-auto text-center lg:text-start lg:mx-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. Class aptent taciti sociosqu ad litora torquent </p>
         <Flex className={`w-full lg:w-[642px] items-center gap-6 bg-[#F6F6F6] rounded-[10px] `}>

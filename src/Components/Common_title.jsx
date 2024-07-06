@@ -11,7 +11,7 @@ const Common_title = ({subtitle,title , mainClass ,h1Width}) => {
      <IoIosArrowForward size={20} className='text-custom_orange' />
      <IoIosArrowForward size={20} className='text-custom_orange' />
     </Flex>
-    <h1 className={`font-bold font-Urbanist text-[30px] md:text-[40px] w-full mx-auto text-center lg:mx-0 lg:text-start ${h1Width}`}>{title}</h1>
+    <h1 className={`font-bold font-Urbanist text-[30px] md:text-[40px]  ${h1Width}`}>{title}</h1>
    </Flex>
   )
 }
