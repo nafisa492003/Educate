@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
 import Flex from './Flex';
-import { PiTriangleFill } from "react-icons/pi";
 const Common_btn = ({title}) => {
   return (
     <Flex className={`items-center justify-center lg:items-start lg:justify-start`}> 
