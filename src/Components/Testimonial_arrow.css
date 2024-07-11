@@ -1,0 +1,17 @@
+.test-next-arrow{
+   position: absolute;
+   bottom: 40px;
+   right: 40px;
+   z-index: 999;
+}
+.test-prev-arrow{
+    position: absolute;
+    right: 120px;
+    bottom: 40px;
+    z-index: 999;
+}
+@media (max-width: 480px) {
+    .test-next-arrow, .test-prev-arrow {
+       bottom: -70px;
+    }
+}
