@@ -8,6 +8,9 @@ import Course_H from '../Components/Course_H'
 import Categories_H from '../Components/Categories_H'
 import Testimonial_H from '../Components/Testimonial_H'
 import Team_H from './../Components/Team_H';
+import Blog_H from '../Components/Blog_H'
+import Frame_H from '../Components/Frame_H'
+import GetInTouch_H from '../Components/GetInTouch_H'
 
 const Home = () => {
   return (
@@ -21,6 +24,9 @@ const Home = () => {
     <Categories_H/>
     <Testimonial_H/>
     <Team_H/>
+    <Blog_H/>
+    <Frame_H/>
+    <GetInTouch_H/>
     </>
   )
 }
