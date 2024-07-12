@@ -15,7 +15,7 @@ const GetInTouch_H = () => {
         <Flex className={`items-center justify-between flex-col lg:flex-row`}>
           <div className="w-full md:w-[638px] mb-4 lg:mb-0 text-center lg:text-start">
             <h1 className="font-medium font-Urbanist text-[24px] lg:text-[72px] text-white">
-              <span className="font-normal font-WaterBrush text-[26px] lg:text-[90px] text-custom_orange block">
+              <span className="font-normal font-allison text-[26px] lg:text-[90px] text-custom_orange block">
                 Get your Quality
               </span> 
               Skills certificate from the 
