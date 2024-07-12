@@ -54,7 +54,7 @@ const AboutH = () => {
           </Flex>
         </Flex>
         <div className="w-full border border-[#E4E4E4]"></div>
-        <Common_btn title={`Discover More`}/>
+        <Common_btn title={`Discover More`} to='/about'/>
         </Flex>
           {/* ------------------About Left part---------------- */}
             {/* ------------------About Right part---------------- */}

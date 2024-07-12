@@ -20,8 +20,8 @@ const Nav_bar = () => {
           {nav && (
             <div className='absolute p-3 top-[90px] w-[96%] bg-[#5774f8] z-50'>
               <ul>
-              <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Home </Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>About</Link></li>
+              <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/'>Home </Link></li>
+            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Courses</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Pages</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Blog</Link></li>
@@ -39,8 +39,8 @@ const Nav_bar = () => {
          {/* menu bar */}
          {/* nav items */}
           <ul className='items-center hidden md:gap-4 lg:gap-10 md:flex'>
-            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Home </Link></li>
-            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>About</Link></li>
+            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/'>Home </Link></li>
+            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Courses</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Pages</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Blog</Link></li>
