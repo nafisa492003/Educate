@@ -6,7 +6,7 @@ import round_img from '../assets/round_pick.png'
 import { BiSolidHeartCircle } from "react-icons/bi";
 const Course_Contenct = () => {
   return (
-    <div className='rounded-[15px] w-full md:w-[416px] shadow-lg'>
+    <div className='rounded-[15px] w-full md:w-[416px] shadow-lg mx-auto'>
         {/* img section */}
     <div className='relative group'>
         <img className='rounded-t-[15px]' src={course_img} alt="" />

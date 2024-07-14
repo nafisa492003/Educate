@@ -1,0 +1,12 @@
+.aboutp-next-arrow{
+    position: absolute;
+    right: 10px;
+    top: -100px;
+    z-index: 9999;
+}
+.aboutp-prev-arrow{
+ position: absolute;
+ right: 80px;
+ top: -100px;
+ z-index: 9999;
+}

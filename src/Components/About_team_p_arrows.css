@@ -1,0 +1,28 @@
+.aboutt-next-arrow{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    z-index: 9999;
+}
+.aboutt-prev-arrow{
+    position: absolute;
+    bottom: -100px;
+    left: 45%;
+    z-index: 9999;
+}
+@media (max-width: 1000px) {
+    .aboutt-next-arrow {
+        left: 50%;
+      }
+      .aboutt-prev-arrow{
+          left: 40%;
+      }
+}
+@media (max-width: 480px) {
+    .aboutt-next-arrow {
+      left: 50%;
+    }
+    .aboutt-prev-arrow{
+        left: 30%;
+    }
+}
