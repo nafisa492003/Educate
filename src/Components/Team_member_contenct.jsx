@@ -3,9 +3,11 @@ import Flex from './Flex'
 import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Team_member_contenct = () => {
   return (
     <div className='relative mx-auto group'>
+      <Link to='/teacher_details'>
     <div className='w-[320px] md:w-[352px] h-[410px] md:h-[513px] rounded-full bg-regal-blue relative overflow-hidden group'>
       <div className='w-[320px] md:w-[352px] h-[410px] md:h-[513px] rounded-full flex flex-col gap-5 items-center justify-center bg-[#181e28] absolute top-[524px] group-hover:top-0 transition-all duration-100'>
       <div>
@@ -27,6 +29,7 @@ const Team_member_contenct = () => {
     </div>
     <div className='w-[416px] h-[309px] rounded-b-full bg-custom_orange translate-y-[-265px] translate-x-[-32px] -z-10 absolute group-hover:bg-blue hidden md:block'>
     </div>
+    </Link>   
     </div>
   )
 }
