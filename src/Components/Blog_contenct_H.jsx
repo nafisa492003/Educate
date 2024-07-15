@@ -28,7 +28,7 @@ const Blog_contenct_H = () => {
                 <h4 className='font-Urbanist font-medium text-[14px] text-hash'>Fronted Developer</h4>
             </div>
         </Flex>
-        <Link className='w-[40px] h-[40px] rounded-full border border-custom_orange flex items-center justify-center hover:bg-custom_orange group'>
+        <Link to='/blog_Details' className='w-[40px] h-[40px] rounded-full border border-custom_orange flex items-center justify-center hover:bg-custom_orange group'>
         <FaArrowRightLong size={18} className='transition duration-100 text-hash group-hover:text-white' />
         </Link>
      </Flex>

@@ -24,7 +24,7 @@ const Nav_bar = () => {
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Courses</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Pages</Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Blog</Link></li>
+            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Shop</Link></li>
               </ul>
                 {/* icon and btn */}
@@ -43,7 +43,7 @@ const Nav_bar = () => {
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Courses</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Pages</Link></li>
-            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Blog</Link></li>
+            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Shop</Link></li>
           </ul>
            {/* nav items */}
