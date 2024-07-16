@@ -3,11 +3,13 @@ import Flex from './Flex'
 import left_img from '../assets/side_img.png'
 import { Rate } from 'antd';
 import round_img from '../assets/round_pick.png'
+import { Link } from 'react-router-dom';
 const Course_contenct_H = () => {
   return (
    <section>
-    <Flex className={`w-full lg:w-[642px] mx-auto bg-white gap-[30px] flex-col md:flex-row hover:border border-custom_orange rounded-[15px] transition duration-100`}>
+    <Flex className={`w-full lg:w-[642px] mx-auto bg-white gap-[30px] flex-col md:flex-row hover:border border-custom_orange rounded-[15px] transition-all duration-100`}>
     <img src={left_img} alt="" />
+    <Link to='/course_details'>
     <Flex className={`flex-col p-4 md:p-[30px] gap-6 `}>
     <span className='font-Urbanist font-semibold text-[14px] text-white py-[8px] px-[10px] bg-regal-blue rounded-[5px] w-[75px]'>
     20 Hours
@@ -32,6 +34,7 @@ const Course_contenct_H = () => {
       </div>
     </Flex>
     </Flex>
+    </Link>
     </Flex>
    </section>
   )

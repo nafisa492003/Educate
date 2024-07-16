@@ -21,7 +21,7 @@ const Banner = () => {
         <p className="font-Urbanist font-normal text-[20px] text-regal-blue w-full lg:w-[491px] text-center lg:text-left mx-auto lg:mx-0 my-6">
         All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
         </p>
-        <Common_btn title={`Find the Course`}/>
+        <Common_btn title={`Find the Course`} to='/course'/>
         <img className="absolute right-[160px] top-[-5px] hidden lg:block" src={banner_right_img} alt="" />
       </Container>
     </section>
