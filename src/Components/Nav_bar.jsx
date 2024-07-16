@@ -22,7 +22,7 @@ const Nav_bar = () => {
               <ul>
               <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/'>Home </Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Courses</Link></li>
+            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/course'>Courses</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/teacher'>Teacher</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Shop</Link></li>
@@ -41,7 +41,7 @@ const Nav_bar = () => {
           <ul className='items-center hidden md:gap-4 lg:gap-10 md:flex'>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/'>Home </Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
-            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Courses</Link></li>
+            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/course'>Courses</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/teacher'>Teacher</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Shop</Link></li>

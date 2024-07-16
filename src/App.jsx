@@ -12,6 +12,8 @@ import Blog_P from "./Pages/Blog_P";
 import Blog_Details_P from "./Pages/Blog_Details_P";
 import Teacher_P from "./Pages/Teacher_P";
 import Teacher_Details_P from "./Pages/Teacher_Details_P";
+import Course_P from "./Pages/Course_P";
+import Course_Details_P from "./Pages/Course_Details_P";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -22,6 +24,8 @@ const router = createBrowserRouter(
         <Route path="/blog_Details" element={<Blog_Details_P />} />
         <Route path="/teacher" element={<Teacher_P />} />
         <Route path="/teacher_details" element={<Teacher_Details_P />} />
+        <Route path="/course" element={<Course_P />} />
+        <Route path="/course_details" element={<Course_Details_P />} />
       </Route>
     </Route>
   )

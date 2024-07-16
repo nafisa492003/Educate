@@ -4,6 +4,7 @@ import Flex from './Flex'
 import { Rate } from 'antd';
 import round_img from '../assets/round_pick.png'
 import { BiSolidHeartCircle } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 const Course_Contenct = () => {
   return (
     <div className='rounded-[15px] w-full md:w-[416px] shadow-lg mx-auto'>
@@ -14,6 +15,7 @@ const Course_Contenct = () => {
         <div className='w-[90%]  md:w-[390px] h-[180px] bg-custom_orange rounded-b-full absolute left-5 md:left-[10px] bottom-[-28px] -z-10 group-hover:bg-blue transition duration-150'></div>
     </div>
     {/* img section */}
+      <Link to='/course_details'>
     <Flex className={`flex-col p-4 md:p-[30px] gap-6 `}>
     <span className='font-Urbanist font-semibold text-[14px] text-white py-[8px] px-[10px] bg-regal-blue rounded-[5px] w-[75px]'>
     20 Hours
@@ -38,6 +40,7 @@ const Course_Contenct = () => {
       </div>
     </Flex>
     </Flex>
+    </Link>
     </div>
   )
 }
