@@ -14,6 +14,7 @@ import Teacher_P from "./Pages/Teacher_P";
 import Teacher_Details_P from "./Pages/Teacher_Details_P";
 import Course_P from "./Pages/Course_P";
 import Course_Details_P from "./Pages/Course_Details_P";
+import Log_In_P from "./Pages/Log_In_P";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
         <Route path="/teacher_details" element={<Teacher_Details_P />} />
         <Route path="/course" element={<Course_P />} />
         <Route path="/course_details" element={<Course_Details_P />} />
+        <Route path="/login" element={<Log_In_P />} />
       </Route>
     </Route>
   )

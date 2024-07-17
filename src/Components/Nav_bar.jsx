@@ -30,7 +30,9 @@ const Nav_bar = () => {
                 {/* icon and btn */}
          <Flex className={`items-center gap-4`}>
          <FiSearch size={20} className='text-white' />
-         <FaRegUser size={20} className='text-white' />
+         <Link to='/login'>
+         <FaRegUser size={20} className='text-regal-blue' />
+         </Link>
          <button className='px-5 py-[14px] bg-custom_orange font-Urbanist font-semibold text-[16px] text-white rounded-[10px]'>Get In Touch</button>
          </Flex>
          {/* icon and btn */}
@@ -50,7 +52,9 @@ const Nav_bar = () => {
            {/* icon and btn */}
          <Flex className={`items-center gap-4 hidden md:flex`}>
          <FiSearch size={20} className='text-regal-blue' />
+         <Link to='/login'>
          <FaRegUser size={20} className='text-regal-blue' />
+         </Link>
          <button className='px-5 py-[14px] bg-custom_orange font-Urbanist font-semibold text-[16px] text-white rounded-[10px]'>Get In Touch</button>
          </Flex>
              {/* icon and btn */}
