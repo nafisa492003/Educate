@@ -33,7 +33,7 @@ const Nav_bar = () => {
          <Link to='/login'>
          <FaRegUser size={20} className='text-regal-blue' />
          </Link>
-         <button className='px-5 py-[14px] bg-custom_orange font-Urbanist font-semibold text-[16px] text-white rounded-[10px]'>Get In Touch</button>
+         <Link to="/contact_us" className='px-5 py-[14px] bg-custom_orange font-Urbanist font-semibold text-[16px] text-white rounded-[10px]'>Get In Touch</Link>
          </Flex>
          {/* icon and btn */}
             </div>
@@ -55,7 +55,7 @@ const Nav_bar = () => {
          <Link to='/login'>
          <FaRegUser size={20} className='text-regal-blue' />
          </Link>
-         <button className='px-5 py-[14px] bg-custom_orange font-Urbanist font-semibold text-[16px] text-white rounded-[10px]'>Get In Touch</button>
+         <Link to="/contact_us" className='px-5 py-[14px] bg-custom_orange font-Urbanist font-semibold text-[16px] text-white rounded-[10px]'>Get In Touch</Link>
          </Flex>
              {/* icon and btn */}
          </Flex>
