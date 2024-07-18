@@ -53,7 +53,7 @@ const Contact_Us_P = () => {
           <Common_btn title={`Send a Message`} />
         </Flex>
         <Flex className={`my-[80px] lg:my-[120px] flex-col lg:flex-row items-center justify-center`}>
-          <Link>
+          <Link to='/faq'>
             <Flex
               className={`w-full md:w-[400px] flex-col items-center justify-center gap-3 group hover:bg-blue py-10`}
             >
