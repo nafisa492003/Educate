@@ -17,7 +17,7 @@ const Team_H_contenct = () => {
       className='object-contain w-[76%] md:w-[314px] h-[319px] px-2 md:px-5 py-[10px] absolute left-[50px] group-hover:top-[160px] transition-all duration-150 top-[516px]'
       >
       <div className='w-[50px] h-[50px] rounded-full bg-[#F6F6F6] flex items-center justify-center ml-auto mb-8 mt-[56px]'>
-        <Link>
+        <Link to="/teacher_details">
       <FaArrowRight size={20} className='text-custom_orange' />
         </Link>
       </div>

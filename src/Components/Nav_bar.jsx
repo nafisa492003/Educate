@@ -25,7 +25,7 @@ const Nav_bar = () => {
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/course'>Courses</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/teacher'>Teacher</Link></li>
             <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link>Shop</Link></li>
+            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to={`/products`}>Shop</Link></li>
               </ul>
                 {/* icon and btn */}
          <Flex className={`items-center gap-4`}>
@@ -46,7 +46,7 @@ const Nav_bar = () => {
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/course'>Courses</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/teacher'>Teacher</Link></li>
             <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
-            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link>Shop</Link></li>
+            <li className='text-[16px] text-regal-blue font-semibold font-Urbanist'><Link to={`/products`}>Shop</Link></li>
           </ul>
            {/* nav items */}
            {/* icon and btn */}
