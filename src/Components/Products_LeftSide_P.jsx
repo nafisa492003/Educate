@@ -23,7 +23,7 @@ const Products_LeftSide_P = () => {
           <span className='font-Urbanist font-semibold text-[16px] text-hash'>$10 - $100</span>
           <button className='font-Urbanist font-semibold text-[16px] text-hash p-4 rounded-lg bg-[#F6F6F6]'>Apply</button>
         </Flex>
-        <Link className='font-semibold font-Urbanist text-[18px] p-5 rounded-xl text-white bg-custom_orange'>
+        <Link className='font-semibold font-Urbanist text-[18px] p-5 rounded-xl text-white bg-custom_orange text-center'>
         Visit Our Pricing Plan
         </Link>
       </Flex>

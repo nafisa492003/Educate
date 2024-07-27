@@ -20,18 +20,18 @@ const Nav_bar = () => {
           {nav && (
             <div className='absolute p-3 top-[90px] w-[96%] bg-[#5774f8] z-50'>
               <ul>
-              <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/'>Home </Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/course'>Courses</Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/teacher'>Teacher</Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
-            <li className='text-[16px] text-white font-semibold font-Urbanist'><Link to={`/products`}>Shop</Link></li>
+              <li className='text-[26px] text-white font-semibold font-Urbanist'><Link to='/'>Home </Link></li>
+            <li className='text-[26px] text-white font-semibold font-Urbanist'><Link to='/about'>About</Link></li>
+            <li className='text-[26px] text-white font-semibold font-Urbanist'><Link to='/course'>Courses</Link></li>
+            <li className='text-[26px] text-white font-semibold font-Urbanist'><Link to='/teacher'>Teacher</Link></li>
+            <li className='text-[26px] text-white font-semibold font-Urbanist'><Link to='/blog'>Blog</Link></li>
+            <li className='text-[26px] text-white font-semibold font-Urbanist'><Link to={`/products`}>Shop</Link></li>
               </ul>
                 {/* icon and btn */}
          <Flex className={`items-center gap-4`}>
-         <FiSearch size={20} className='text-white' />
+         <FiSearch size={26} className='text-white' />
          <Link to='/login'>
-         <FaRegUser size={20} className='text-regal-blue' />
+         <FaRegUser size={26} className='text-white' />
          </Link>
          <Link to="/contact_us" className='px-5 py-[14px] bg-custom_orange font-Urbanist font-semibold text-[16px] text-white rounded-[10px]'>Get In Touch</Link>
          </Flex>

@@ -8,8 +8,8 @@ const Team_member_contenct = () => {
   return (
     <div className='relative mx-auto group'>
       <Link to='/teacher_details'>
-    <div className='w-[320px] md:w-[352px] h-[410px] md:h-[513px] rounded-full bg-regal-blue relative overflow-hidden group'>
-      <div className='w-[320px] md:w-[352px] h-[410px] md:h-[513px] rounded-full flex flex-col gap-5 items-center justify-center bg-[#181e28] absolute top-[524px] group-hover:top-0 transition-all duration-100'>
+    <div className='w-[310px] md:w-[352px] h-[410px] md:h-[513px] rounded-full bg-regal-blue relative overflow-hidden group'>
+      <div className='w-[310px] md:w-[352px] h-[410px] md:h-[513px] rounded-full flex flex-col gap-5 items-center justify-center bg-[#181e28] absolute top-[524px] group-hover:top-0 transition-all duration-100'>
       <div>
         <h1 className='font-bold font-Urbanist text-[32px] text-white'>Devon Lane</h1>
         <h3 className='font-normal font-Urbanist text-[20px] text-white text-center'>UI/UX Designer</h3>
