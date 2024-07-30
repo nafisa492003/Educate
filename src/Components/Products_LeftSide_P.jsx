@@ -3,7 +3,9 @@ import Flex from './Flex'
 import { IoSearch } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { Slider, Typography } from 'antd';
 const Products_LeftSide_P = () => {
+  const [stepsCount, setStepsCount] = React.useState(5);
   return (
         <Flex className={`flex-col gap-10 w-full lg:w-3/12`}>
         {/* search part */}
@@ -19,6 +21,7 @@ const Products_LeftSide_P = () => {
       {/* price part */}
       <Flex className='w-full p-[30px] bg-white rounded-[10px] flex-col gap-5'>
         <h1 className='font-Urbanist font-bold text-[24px] text-regal-blue'>Price</h1>
+      <Slider min={3} max={10} value={stepsCount} onChange={setStepsCount} />
         <Flex className={`items-center justify-between`}>
           <span className='font-Urbanist font-semibold text-[16px] text-hash'>$10 - $100</span>
           <button className='font-Urbanist font-semibold text-[16px] text-hash p-4 rounded-lg bg-[#F6F6F6]'>Apply</button>
