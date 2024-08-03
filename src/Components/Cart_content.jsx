@@ -6,12 +6,12 @@ import { FaRegHeart } from "react-icons/fa";
 import { FaRegEye } from "react-icons/fa";
 const Cart_content = () => {
   return (
-    <div className='w-full lg:w-[303px] h-[300px] lg:h-[434px] border border-[#e4e4e4] rounded-[15px] hover:shadow-lg flex flex-col justify-end p-6 relative group'>
+    <div className='w-full lg:w-[303px] h-[434px] border border-[#e4e4e4] rounded-[15px] hover:shadow-lg flex flex-col justify-end p-6 relative group'>
      <Flex className={`items-center flex-col gap-5 absolute top-5 right-5 hidden group-hover:flex transition-all duration-75 ease-linear`}>
       <div className='w-[30px] h-[30px] flex items-center justify-center rounded-full bg-[#F6F6F6]'>
       <FaRegHeart size={16} className='text-hash' />
       </div>
-      <Link className='w-[30px] h-[30px] flex items-center justify-center rounded-full bg-[#F6F6F6]'>
+      <Link to={`/products_Details`} className='w-[30px] h-[30px] flex items-center justify-center rounded-full bg-[#F6F6F6]'>
       <FaRegEye size={16} className='text-hash' />
       </Link>
      </Flex>

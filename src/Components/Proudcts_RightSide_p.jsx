@@ -7,7 +7,7 @@ const Proudcts_RightSide_p = () => {
     <Flex className={`flex-col gap-9 w-full lg:w-9/12`}>
     {/* header part */}
    <Flex className={`items-center justify-between w-full`}>
-    <span className='font-bold font-Urbanist text-[20px] text-hash'>Showing 1-9 of 12 Results</span>
+    <span className='font-bold font-Urbanist text-[14px] md:text-[20px] text-hash'>Showing 1-9 of 12 Results</span>
     <Select
     showSearch
     style={{
@@ -48,17 +48,17 @@ const Proudcts_RightSide_p = () => {
    </Flex>
     {/* header part */}
     {/* cart part */}
-    <Flex className={`items-center justify-between`}>
+    <Flex className={`items-center gap-[36px] flex-col lg:flex-row`}>
         <Cart_content/>
         <Cart_content/>
         <Cart_content/>
     </Flex>
-    <Flex className={`items-center justify-between`}>
+    <Flex className={`items-center gap-[36px] flex-col lg:flex-row`}>
         <Cart_content/>
         <Cart_content/>
         <Cart_content/>
     </Flex>
-    <Flex className={`items-center justify-between`}>
+    <Flex className={`items-center gap-[36px] flex-col lg:flex-row`}>
         <Cart_content/>
         <Cart_content/>
         <Cart_content/>
