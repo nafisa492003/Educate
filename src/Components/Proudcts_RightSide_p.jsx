@@ -48,7 +48,19 @@ const Proudcts_RightSide_p = () => {
    </Flex>
     {/* header part */}
     {/* cart part */}
-    <Flex>
+    <Flex className={`items-center justify-between`}>
+        <Cart_content/>
+        <Cart_content/>
+        <Cart_content/>
+    </Flex>
+    <Flex className={`items-center justify-between`}>
+        <Cart_content/>
+        <Cart_content/>
+        <Cart_content/>
+    </Flex>
+    <Flex className={`items-center justify-between`}>
+        <Cart_content/>
+        <Cart_content/>
         <Cart_content/>
     </Flex>
 
