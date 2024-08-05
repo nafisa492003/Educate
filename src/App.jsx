@@ -19,6 +19,7 @@ import Contact_Us_P from "./Pages/Contact_Us_P";
 import FAQ_P from "./Pages/FAQ_P";
 import Products_P from "./Pages/Products_P";
 import Products_Details_P from "./Pages/Products_Details_P";
+import Cart_P from "./Pages/Cart_P";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -36,7 +37,7 @@ const router = createBrowserRouter(
         <Route path="/faq" element={<FAQ_P />} />
         <Route path="/products" element={<Products_P />} />
         <Route path="/products_Details" element={<Products_Details_P />} />
-
+        <Route path="/cart" element={<Cart_P />} />
       </Route>
     </Route>
   )

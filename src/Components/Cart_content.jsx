@@ -27,7 +27,7 @@ const Cart_content = () => {
     </Flex>
     <Rate value={5} className='text-custom_orange'/>
    
-      <Link  className='font-bold font-Urbanist text-[16px] text-hash py-4 px-[32px] bg-[#F6F6F6] rounded-[10px] hover:bg-custom_orange hover:text-white transition duration-100'>
+      <Link to={`/cart`}  className='font-bold font-Urbanist text-[16px] text-hash py-4 px-[32px] bg-[#F6F6F6] rounded-[10px] hover:bg-custom_orange hover:text-white transition duration-100'>
       Add to Cart
     </Link>
      </Flex>
