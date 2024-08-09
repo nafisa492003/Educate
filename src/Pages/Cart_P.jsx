@@ -96,7 +96,7 @@ const Cart_P = () => {
               </Flex> 
               <Flex className={`gap-10 flex-col md:flex-row`}>
                <Common_btn title={`Update`}/>
-               <Common_btn title={`Checkout`}/>
+               <Common_btn title={`Checkout`} to={`/checkout`}/>
               </Flex>
             </Flex>
            </Flex>
